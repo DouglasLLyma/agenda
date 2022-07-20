@@ -7,3 +7,5 @@ class EventoAdmin(admin.ModelAdmin):
     list_filter = ('usuario', 'data_evento',)
 
 admin.site.register(Evento, EventoAdmin)
+
+# 
